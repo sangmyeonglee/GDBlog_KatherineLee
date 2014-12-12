@@ -140,8 +140,8 @@ header, header a{
 h1 {text-align: left;
 	font-family: sans-serif;
 	width:;
-	letter-spacing: 20px;
-	margin-top: 10px;}
+	letter-spacing: 3.5px;
+	margin-top: 0px;}
 		
 		
 h2 {font-family: 'Gotham';
@@ -203,7 +203,14 @@ p {
 	text-overflow: ellipsis;
 }
 
-
+p1 {
+	
+	float: right;
+	text-align: right;
+	margin-right: 5px;
+	margin-bottom: 2px;
+	
+}
 
 p2 {
 	font-family: 'Gotham';
@@ -253,18 +260,22 @@ footer {
 	line-height: 16px;
 	margin-top: 30px;
 	
+	
+	
 
 
 }
 
 
-input.button {
+.button {
 	background-color: white;
-	border-color: white;
+	padding: 10px;
+	border-bottom: 2px solid black;
+	border-right: 2px solid gray;
 	position: block;
 	margin-left:500px;
 	margin-top: 50px;
-	padding-bottom: -300px;
+	
 	
 }
 
@@ -340,6 +351,7 @@ input.button {
 	overflow: hidden;
 }
 .site {
+	position: block;
 	float: left;
 	width: 45%;
 }
