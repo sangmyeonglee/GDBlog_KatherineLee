@@ -1,0 +1,118 @@
+/* Document Structure
+
+   Tag Formating */
+   Objects 
+   
+*/
+
+
+
+/* Tag Formating */
+
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.menus strong {
+  display: none;
+}
+
+.menu {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
+.menu .item {
+  display: inline-block;
+}
+
+.masthead .brand {
+  float: left;
+  width: 25%;
+  background: yellow;
+  display: inline-block;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-color: grey;
+}
+
+.masthead .navigation,
+.masthead .utility {
+  float: right;
+  width: 75%;
+  text-align: justify;
+  background: pink;
+}
+
+.masthead .navigation .menu,
+.masthead .utility .menu {
+  margin: 0;
+}
+
+.masthead .navigation .menu {
+  margin-bottom: 3px;
+}
+
+.masthead .navigation .item,
+.masthead .utility .item {
+  width: 19%;
+  margin: 0;
+  text-align: center;
+}
+
+.masthead .navigation .link,
+.masthead .utility .link {
+  display: block;
+  padding: 10px 0;
+  color: #fff;
+  background: black;
+}
+
+.masthead .social,
+.masthead .form,
+main.page {
+  display: none;
+}
+
+
+.body {
+	font-family: sans-serif;
+	
+	
+}
+
+.h1
+
+{	margin-top: px;
+	font-size: 10px;
+			
+			}
+			
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-weight: normal;
+	
+}
+
+/* Objects */
+
+.menu,
+.menu .item {			
+			
+	}
+	
+.menu .link {
+		
+
+
+}
+	
+	

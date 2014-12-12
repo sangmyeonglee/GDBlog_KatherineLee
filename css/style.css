@@ -1,0 +1,252 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;
+}
+
+
+
+body {
+	width: 100%;
+	z-index: auto;
+	margin: 0px auto;
+	background-color: #ffffff ;
+}
+
+section {
+	width: 960px;
+	margin: 0px auto;
+}
+
+header, header a{
+	width: 100%;
+	text-align: left;
+	display: block;
+	
+}
+
+
+h1 {text-align: left;
+	font-family: sans-serif;
+	width:;
+	letter-spacing: 20px;
+	margin-top: 10px;}
+		
+		
+h2 {font-family: 'Gotham';
+	font-size: ;
+	font-style: normal;
+	letter-spacing: ;
+	text-align: left;
+	font-weight: 500;
+	text-decoration: none;
+	color: red;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 5px;
+
+}
+
+h3 {font-family: 'Gotham';
+	font-size: ;
+	font-style: normal;
+	letter-spacing: ;
+	text-align: left;
+	font-weight: 500;
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 5px;
+}
+
+h4 {font-family: 'Gotham';
+	font-size: ;
+	font-style: normal;
+	letter-spacing: ;
+	text-align: left;
+	font-weight: ;
+	text-decoration: none;
+	color: pink;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 5px;
+	display: block;
+}
+
+strong {
+  font-weight: bold;
+}
+
+
+
+p1 {
+	font-family: 'Gotham';
+	text-align: left;
+	letter-spacing: normal;
+	color: black;
+	font-weight: 100px;
+	font-size: 11px;
+	font-variant: 100px;
+	line-height: 20px;
+	text-overflow: ellipsis;
+}
+
+
+
+p2 {
+	font-family: 'Gotham';
+	text-align: center;
+	letter-spacing: normal;
+	color: black;
+	font-weight: 100px;
+	font-size: 11px;
+	font-variant: 100px;
+	line-height: 20px;
+	
+}
+
+
+a { font-family: sans-serif;
+	letter-spacing: normal;
+	color: black;
+	font-weight: 100px;
+	font-size: 11px;
+	line-height: ;
+	text-decoration: none;
+
+}
+
+
+
+a:hover {
+	color: #96ebd1;
+}
+
+a.nav:hover {
+		color: #ff3176;
+		 }
+
+footer { 
+	position: relative;
+	width: 100%;
+	display: table;
+	border-collapse: collapse;
+	background-color: #9ad4cc;
+	font-family: 'Gotham';
+	letter-spacing: normal;
+	text-align: right;
+	color: white;
+	font-weight: 100px;
+	font-size: 10px;
+	line-height: 16px;
+	margin-top: 30px;
+	margin-top: 300px;
+
+
+}
+
+
+
+.container {
+	width: 960px;
+	border: none;
+	margin: 0px auto;
+	padding-top: 30px;
+	padding-bottom: 30px;	
+}
+	
+
+	
+	
+.nav a {
+	display: block
+}
+
+
+
+
+
+	
+/* `Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.one.column, 
+.two.columns, 
+.three.columns, 
+.four.columns, 
+.five.columns, 
+.six.columns, 
+.seven.columns, 
+.eight.columns, 
+.nine.columns,
+.ten.columns, 
+.eleven.columns, 
+.twelve.columns  {display: inline; float: left; margin-left: 10px; margin-right: 10px;} 
+
+
+/* `Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+section .one.column {width: 60px;}
+
+section .two.columns {width: 140px;}
+
+section .three.columns {width: 220px;}
+
+section .four.columns {width: 300px;}
+
+section .five.columns {width: 380px;}
+
+section .six.columns {width: 460px;}
+
+section .seven.columns {width: 540px;}
+
+section .eight.columns {width: 620px;}
+
+section .nine.columns {width: 700px;}
+
+section .ten.columns {width: 780px;}
+
+section .eleven.columns {width: 860px;}
+
+section .twelve.columns {width: 940px;}
+
+
+
+/* `Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+section .indent-one {padding-left: 50px;}
+
+section .indent-two {padding-left: 160px;}
+
+section .indent-three {padding-left: 240px;}
+
+section .indent-four {padding-left: 320px;}
+
+section .indent-five {padding-left: 400px;}
+
+section .indent-six {padding-left: 480px;}
+
+section .indent-seven {padding-left: 560px;}
+
+section .indent-eight {padding-left: 640px;}
+
+section .indent-nine {padding-left: 720px;}
+
+section .indent-ten {padding-left: 800px;}
+
+section .indent-eleven {padding-left: 880px;}
+
+
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
